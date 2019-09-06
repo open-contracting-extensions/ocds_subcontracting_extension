@@ -1,0 +1,59 @@
+{
+  "definitions": {
+    "Award": {
+      "properties": {
+        "subcontracting": {
+          "title": "Subcontracting",
+          "description": "Information about the subcontracted portion of the contract.",
+          "$ref": "#/definitions/Subcontracting"
+        },
+        "hasSubcontracting": {
+          "title": "Subcontracting used",
+          "description": "Whether the contract is subcontracted or not.",
+          "type": ["boolean", "null"]
+        }
+      }
+    },
+    "Subcontracting": {
+      "title": "Subcontracting",
+      "description": "Information about the subcontracted portion of the contract.",
+      "type": "object",
+      "properties": {
+        "details": {
+          "title": "Subcontracting details",
+          "description": "Details on the subcontracted portion of the contract.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "maximumPercentage": {
+          "title": "Maximum percentage of subcontracted value",
+          "description": "The maximum percentage of the contract value that is subcontracted.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0.0001
+        },
+        "minimumPercentage": {
+          "title": "Minimum percentage of subcontracted value",
+          "description": "The minimum percentage of the contract value that is subcontracted.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0
+        },
+        "value": {
+          "title": "Subcontracted value",
+          "describe": "The VAT-free value of the subcontracted portion of the contract.",
+          "$ref": "#/definitions/Value""
+        }
+
+      }
+    }
+  }
+}

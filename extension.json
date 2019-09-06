@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Subcontracting"
+  },
+  "description": {
+    "en": "Adds an object for information on the subcontracted portion of the contract."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_subcontracting_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
