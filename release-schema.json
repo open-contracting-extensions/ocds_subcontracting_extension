@@ -52,7 +52,7 @@
         },
         "value": {
           "title": "Subcontracted value",
-          "describe": "The VAT-free value of the subcontracted portion of the contract.",
+          "description": "The VAT-free value of the subcontracted portion of the contract.",
           "$ref": "#/definitions/Value"
         }
       }
