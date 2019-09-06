@@ -10,7 +10,10 @@
         "hasSubcontracting": {
           "title": "Subcontracting used",
           "description": "Whether the contract is subcontracted or not.",
-          "type": ["boolean", "null"]
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     },
@@ -50,9 +53,8 @@
         "value": {
           "title": "Subcontracted value",
           "describe": "The VAT-free value of the subcontracted portion of the contract.",
-          "$ref": "#/definitions/Value""
+          "$ref": "#/definitions/Value"
         }
-
       }
     }
   }
