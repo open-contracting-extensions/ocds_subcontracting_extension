@@ -3,7 +3,7 @@
     "en": "Subcontracting"
   },
   "description": {
-    "en": "Adds an object for information on the subcontracted portion of the contract."
+    "en": "Adds an object for information about the parts of the contract that the contractor will subcontract to third parties."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_subcontracting_extension"

@@ -1,48 +1,48 @@
 # Subcontracting
 
-Adds an object for information on the subcontracted portion of the contract.
+Adds an object for information about the parts of the contract that the contractor will subcontract to third parties.
 
 ## Guidance
 
-If there the percentage of the contract value that is subcontracted is an exact value and not a range, set `minimumPercentage` and `maximumPercentage` to the same number.
+If the percentage of the contract value that is subcontracted is an exact number and not a range, set `minimumPercentage` and `maximumPercentage` to the same number.
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-180 (Subcontracting)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Examples
 
 ```json
 {
-"awards": [
-          {
-            "id": "1",
-            "hasSubcontracting": true,
-            "subcontracting": {
-              "value": {
-                "amount": 28000,
-                "currency": "EUR"
-              },
-              "details": "The painting and electricity tasks are subcontracted."
-            }
-          }
-        ]
+  "awards": [
+    {
+      "id": "1",
+      "hasSubcontracting": true,
+      "subcontracting": {
+        "value": {
+          "amount": 28000,
+          "currency": "EUR"
+        },
+        "details": "The painting and electricity tasks are subcontracted."
+      }
+    }
+  ]
 }
 ```
 
 ```json
 {
-"awards": [
-          {
-            "id": "1",
-            "hasSubcontracting": true,
-            "subcontracting": {
-              "minimumPercentage": 0.3,
-              "maximumPercentage": 0.3,
-              "details": "The painting and electricity tasks are subcontracted."
-            }
-          }
-        ]
+  "awards": [
+    {
+      "id": "1",
+      "hasSubcontracting": true,
+      "subcontracting": {
+        "minimumPercentage": 0.3,
+        "maximumPercentage": 0.3,
+        "details": "The painting and electricity tasks are subcontracted."
+      }
+    }
+  ]
 }
 ```
 
