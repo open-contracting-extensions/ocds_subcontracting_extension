@@ -23,7 +23,7 @@ In the European Union, this extension's fields correspond to [eForms BG-180 (Sub
           "amount": 28000,
           "currency": "EUR"
         },
-        "details": "The painting and electricity tasks are subcontracted."
+        "description": "The painting and electricity tasks are subcontracted."
       }
     }
   ]
@@ -39,7 +39,7 @@ In the European Union, this extension's fields correspond to [eForms BG-180 (Sub
       "subcontracting": {
         "minimumPercentage": 0.3,
         "maximumPercentage": 0.3,
-        "details": "The painting and electricity tasks are subcontracted."
+        "description": "The painting and electricity tasks are subcontracted."
       }
     }
   ]
