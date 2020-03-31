@@ -14,52 +14,52 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
 
 ```json
 {
-"awards": [
-          {
-            "id": "1",
-            "hasSubcontracting": true,
-            "subcontracting": {
-              "competitive": true,
-              "value": {
-                "amount": 28000,
-                "currency": "EUR"
-              },
-              "details": "The painting and electricity tasks are subcontracted."
-            }
-          }
-        ]
+  "awards": [
+    {
+      "id": "1",
+      "hasSubcontracting": true,
+      "subcontracting": {
+        "competitive": true,
+        "value": {
+          "amount": 28000,
+          "currency": "EUR"
+        },
+        "details": "The painting and electricity tasks are subcontracted."
+      }
+    }
+  ]
 }
 ```
 
 ```json
 {
-"awards": [
-          {
-            "id": "1",
-            "hasSubcontracting": true,
-            "subcontracting": {
-              "minimumPercentage": 0.3,
-              "maximumPercentage": 0.3,
-              "details": "The painting and electricity tasks are subcontracted."
-            }
-          }
-        ]
+  "awards": [
+    {
+      "id": "1",
+      "hasSubcontracting": true,
+      "subcontracting": {
+        "minimumPercentage": 0.3,
+        "maximumPercentage": 0.3,
+        "details": "The painting and electricity tasks are subcontracted."
+      }
+    }
+  ]
 }
 ```
 
 ```json
 {
-"awards": [
-          {
-            "id": "1",
-            "hasSubcontracting": true,
-            "subcontracting": {
-              "competitiveMinimumPercentage": 0.1,
-              "competitiveMaximumPercentage": 0.25,
-              "details": "The painting and electricity tasks are subcontracted."
-            }
-          }
-        ]
+  "awards": [
+    {
+      "id": "1",
+      "hasSubcontracting": true,
+      "subcontracting": {
+        "competitiveMinimumPercentage": 0.1,
+        "competitiveMaximumPercentage": 0.25,
+        "details": "The painting and electricity tasks are subcontracted."
+      }
+    }
+  ]
 }
 ```
 
