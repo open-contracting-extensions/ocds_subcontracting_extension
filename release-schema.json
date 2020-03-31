@@ -2,37 +2,37 @@
   "definitions": {
     "Award": {
       "properties": {
-        "subcontracting": {
-          "title": "Subcontracting",
-          "description": "Information about the subcontracted portion of the contract.",
-          "$ref": "#/definitions/Subcontracting"
-        },
         "hasSubcontracting": {
-          "title": "Subcontracting used",
-          "description": "Whether the contract is subcontracted or not.",
+          "title": "Subcontracting involved",
+          "description": "Whether a part of the contract will be subcontracted.",
           "type": [
             "boolean",
             "null"
           ]
+        },
+        "subcontracting": {
+          "title": "Subcontracting",
+          "description": "Information about the parts of the contract that the contractor will subcontract to third parties.",
+          "$ref": "#/definitions/Subcontracting"
         }
       }
     },
     "Subcontracting": {
       "title": "Subcontracting",
-      "description": "Information about the subcontracted portion of the contract.",
+      "description": "Information about the parts of the contract that the contractor will subcontract to third parties.",
       "type": "object",
       "properties": {
-        "details": {
-          "title": "Subcontracting details",
-          "description": "Details on the subcontracted portion of the contract.",
+        "description": {
+          "title": "Description",
+          "description": "The description of the part of the contract that the contractor will subcontract to third parties.",
           "type": [
             "string",
             "null"
           ]
         },
         "maximumPercentage": {
-          "title": "Maximum percentage of subcontracted value",
-          "description": "The maximum percentage of the contract value that is subcontracted.",
+          "title": "Maximum percentage of contract value",
+          "description": "The maximum percentage of the contract value that will be subcontracted.",
           "type": [
             "number",
             "null"
@@ -41,8 +41,8 @@
           "minimum": 0.0001
         },
         "minimumPercentage": {
-          "title": "Minimum percentage of subcontracted value",
-          "description": "The minimum percentage of the contract value that is subcontracted.",
+          "title": "Minimum percentage of contract value",
+          "description": "The minimum percentage of the contract value that will be subcontracted.",
           "type": [
             "number",
             "null"
@@ -72,7 +72,7 @@
         },
         "value": {
           "title": "Subcontracted value",
-          "description": "The VAT-free value of the subcontracted portion of the contract.",
+          "description": "The estimated value of the part of the contract that the contractor will subcontract to third parties.",
           "$ref": "#/definitions/Value"
         },
         "competitive": {

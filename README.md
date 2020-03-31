@@ -1,10 +1,10 @@
 # Subcontracting
 
-Adds an object for information on the subcontracted portion of the contract.
+Adds an object for information about the parts of the contract that the contractor will subcontract to third parties.
 
 ## Guidance
 
-If there the percentage of the contract value that is subcontracted is an exact value and not a range, set `minimumPercentage` and `maximumPercentage` to the same number.
+If the percentage of the contract value that is subcontracted is an exact number and not a range, set `minimumPercentage` and `maximumPercentage` to the same number.
 
 ## Legal context
 
@@ -24,7 +24,7 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
           "amount": 28000,
           "currency": "EUR"
         },
-        "details": "The painting and electricity tasks are subcontracted."
+        "description": "The painting and electricity tasks are subcontracted."
       }
     }
   ]
