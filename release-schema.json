@@ -50,10 +50,38 @@
           "maximum": 1,
           "minimum": 0
         },
+        "competitiveMaximumPercentage": {
+          "title": "Maximum percentage of total value for competitive subcontracting",
+          "description": "Maximum percentage of the contract value required to be subcontracted through a competitive procedure.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0.0001
+        },
+        "competitiveMinimumPercentage": {
+          "title": "Minimum percentage of total value for competitive subcontracting",
+          "description": "Minimum percentage of the contract value required to be subcontracted through a competitive procedure.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0
+        },
         "value": {
           "title": "Subcontracted value",
           "description": "The VAT-free value of the subcontracted portion of the contract.",
           "$ref": "#/definitions/Value"
+        },
+        "competitive": {
+          "title": "Competitive subcontracting",
+          "description": "Whether the contract will be subcontracted through a competitive procedure.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
