@@ -40,7 +40,7 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
       "subcontracting": {
         "minimumPercentage": 0.3,
         "maximumPercentage": 0.3,
-        "details": "The painting and electricity tasks are subcontracted."
+        "description": "The painting and electricity tasks are subcontracted."
       }
     }
   ]
@@ -56,7 +56,7 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
       "subcontracting": {
         "competitiveMinimumPercentage": 0.1,
         "competitiveMaximumPercentage": 0.25,
-        "details": "The painting and electricity tasks are subcontracted."
+        "description": "The painting and electricity tasks are subcontracted."
       }
     }
   ]
