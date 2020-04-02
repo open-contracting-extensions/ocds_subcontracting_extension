@@ -8,7 +8,7 @@ If the percentage of the contract value that is subcontracted is an exact number
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage)](https://github.com/eForms/eForms) and [article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage), BT-65, BT-64, BT-729](https://github.com/eForms/eForms) and [article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Examples
 
@@ -66,3 +66,7 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title. You can also see discussions about this extension in [this issue](https://github.com/open-contracting-extensions/ocds_subcontracting_extension/issues/2).
+
+## Changelog
+
+This extension was originally discussed as part of the [OCDS for EU profile](https://github.com/open-contracting-extensions/european-union/issues) and in [pull requests](https://github.com/open-contracting-extensions/ocds_subcontracting_extension/pulls?q=is%3Apr+is%3Aclosed).
