@@ -1,6 +1,6 @@
 # Subcontracting
 
-Adds an object for information about the parts of the contract that the contractor will subcontract to third parties.
+Adds an object for information about the parts of the contract that the supplier will subcontract to third parties.
 
 ## Guidance
 
