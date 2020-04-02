@@ -38,7 +38,8 @@
             "null"
           ],
           "maximum": 1,
-          "minimum": 0.0001
+          "minimum": 0,
+          "exclusiveMinimum": true
         },
         "minimumPercentage": {
           "title": "Minimum percentage of contract value",
@@ -58,7 +59,8 @@
             "null"
           ],
           "maximum": 1,
-          "minimum": 0.0001
+          "minimum": 0,
+          "exclusiveMinimum": true
         },
         "competitiveMinimumPercentage": {
           "title": "Minimum percentage of total value for competitive subcontracting",
