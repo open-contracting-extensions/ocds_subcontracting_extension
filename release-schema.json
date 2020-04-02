@@ -12,19 +12,19 @@
         },
         "subcontracting": {
           "title": "Subcontracting",
-          "description": "Information about the parts of the contract that the contractor will subcontract to third parties.",
+          "description": "Information about the parts of the contract that the supplier will subcontract to third parties.",
           "$ref": "#/definitions/Subcontracting"
         }
       }
     },
     "Subcontracting": {
       "title": "Subcontracting",
-      "description": "Information about the parts of the contract that the contractor will subcontract to third parties.",
+      "description": "Information about the parts of the contract that the supplier will subcontract to third parties.",
       "type": "object",
       "properties": {
         "description": {
           "title": "Description",
-          "description": "The description of the part of the contract that the contractor will subcontract to third parties.",
+          "description": "The description of the part of the contract that the supplier will subcontract to third parties.",
           "type": [
             "string",
             "null"
@@ -38,7 +38,8 @@
             "null"
           ],
           "maximum": 1,
-          "minimum": 0.0001
+          "minimum": 0,
+          "exclusiveMinimum": true
         },
         "minimumPercentage": {
           "title": "Minimum percentage of contract value",
@@ -50,10 +51,39 @@
           "maximum": 1,
           "minimum": 0
         },
+        "competitiveMaximumPercentage": {
+          "title": "Maximum percentage of contract value for competitive subcontracting",
+          "description": "The maximum percentage of the contract value that the procuring entity requires the supplier to subcontract to third parties through a competitive procedure.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0,
+          "exclusiveMinimum": true
+        },
+        "competitiveMinimumPercentage": {
+          "title": "Minimum percentage of contract value for competitive subcontracting",
+          "description": "The minimum percentage of the contract value that the procuring entity requires the supplier to subcontract to third parties through a competitive procedure.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0
+        },
         "value": {
           "title": "Subcontracted value",
-          "description": "The estimated value of the part of the contract that the contractor will subcontract to third parties.",
+          "description": "The estimated value of the part of the contract that the supplier will subcontract to third parties.",
           "$ref": "#/definitions/Value"
+        },
+        "competitive": {
+          "title": "Competitive subcontracting",
+          "description": "Whether the supplier will subcontract part of the contract to third parties through a competitive procedure.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
