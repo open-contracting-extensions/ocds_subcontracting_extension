@@ -6,7 +6,7 @@
     "en": "Adds an object for information about the parts of the contract that the supplier will subcontract to third parties."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_subcontracting_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/subcontracting/"
   },
   "compatibility": [
     "1.1"
