@@ -28,7 +28,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "maximumPercentage": {
           "title": "Maximum percentage of contract value",
@@ -85,7 +86,8 @@
             "null"
           ]
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
