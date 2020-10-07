@@ -14,6 +14,16 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
 
 ```json
 {
+  "tender": {
+    "subcontractingTerms": {
+      "description": "The successful tenderer is obliged to specify which part or parts of the contract it intends to subcontract beyond the required percentage and to indicate the subcontractors already identified."
+    }
+  }
+}
+```
+
+```json
+{
   "awards": [
     {
       "id": "1",
@@ -68,6 +78,10 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-10-07
+
+* Rename the `subcontracting` in the `Tender` object as `subcontractingTerms`.
 
 ### 2020-04-24
 

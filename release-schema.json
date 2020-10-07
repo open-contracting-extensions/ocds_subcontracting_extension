@@ -1,5 +1,14 @@
 {
   "definitions": {
+    "Tender": {
+      "properties": {
+        "subcontractingTerms": {
+          "title": "Subcontracting terms",
+          "description": "The obligations of the suppliers who subcontract.",
+          "$ref": "#/definitions/SubcontractingTerms"
+        }
+      }
+    },
     "Award": {
       "properties": {
         "hasSubcontracting": {
@@ -16,6 +25,23 @@
           "$ref": "#/definitions/Subcontracting"
         }
       }
+    },
+    "SubcontractingTerms": {
+      "title": "Subcontracting terms",
+      "description": "The obligations of the suppliers who subcontract.",
+      "type": "object",
+      "properties": {
+        "description": {
+          "title": "Description",
+          "description": "The description of the obligations that fall to the suppliers who subcontract.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "minProperties": 1
     },
     "Subcontracting": {
       "title": "Subcontracting",
