@@ -4,7 +4,7 @@
       "properties": {
         "subcontractingTerms": {
           "title": "Subcontracting terms",
-          "description": "The obligations of the suppliers who subcontract.",
+          "description": "Information about the terms governing subcontracting.",
           "$ref": "#/definitions/SubcontractingTerms"
         }
       }
