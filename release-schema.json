@@ -33,7 +33,7 @@
       "properties": {
         "description": {
           "title": "Description",
-          "description": "The description of the obligations that fall to the suppliers who subcontract.",
+          "description": "A description of the terms governing subcontracting.",
           "type": [
             "string",
             "null"
