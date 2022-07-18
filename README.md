@@ -79,6 +79,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2022-07-18
+
+* Add `subcontractingTerms` field to `Lots` object
+
 ### 2020-10-07
 
 * Rename the `subcontracting` field in the `Tender` object to `subcontractingTerms`.
