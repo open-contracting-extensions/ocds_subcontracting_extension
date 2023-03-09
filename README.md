@@ -81,7 +81,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2022-07-18
 
-* Add `subcontractingTerms` field to `Lot` object.
+* Add `Lot.subcontractingTerms` field.
 
 ### 2020-10-07
 
