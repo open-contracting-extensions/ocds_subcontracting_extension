@@ -59,7 +59,7 @@ In the following example, information about the terms governing subcontracting i
 
 ### Lots and bids
 
-In the following example, information about the terms governing subcontract is disclosed per lot at the tender stage, and information about the parts of the contract that the tenderer will subcontract is disclosed at the bid stage.
+In the following example, information about the terms governing subcontracting is disclosed per lot at the tender stage, and information about the parts of the contract that the tenderer will subcontract is disclosed at the bid stage.
 
 ```json
 {
