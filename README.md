@@ -27,7 +27,7 @@ For correspondences to eForms fields, see [OCDS for eForms](https://standard.ope
 
 ### Tender and awards
 
-In the following example, information about the terms governing subcontracting is disclosed at the tender and award stages, and information about the parts of the contract that the supplier will subcontract is disclosed at the award stage.
+Information about the terms governing subcontracting is disclosed at the tender and award stages, and information about the parts of the contract that the supplier will subcontract is disclosed at the award stage.
 
 ```json
 {
@@ -59,7 +59,7 @@ In the following example, information about the terms governing subcontracting i
 
 ### Lots and bids
 
-In the following example, information about the terms governing subcontracting is disclosed per lot at the tender stage, and information about the parts of the contract that the tenderer will subcontract is disclosed at the bid stage.
+Information about the terms governing subcontracting is disclosed per lot at the tender stage, and information about the parts of the contract that the tenderer will subcontract is disclosed at the bid stage.
 
 ```json
 {
@@ -138,7 +138,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
   * `SubcontractingTerms.competitiveMaximumPercentage`
   * `SubcontractingTerms.competitiveMinimumPercentage`
   * `Subcontracting.subcontracts`
-* Update descriptions for eForms:
+* Update field descriptions to allow the `Subcontracting` object to be used in the context of bids:
   * `Subcontracting`
   * `Subcontracting.description`
   * `Subcontracting.value`
