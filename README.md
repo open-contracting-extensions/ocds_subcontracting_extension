@@ -8,7 +8,7 @@ If the percentage of the contract value that is subcontracted is an exact number
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage), BT-65, BT-64, BT-729](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) and [article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage), BT-65, BT-64, BT-729](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) and [article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Examples
 
