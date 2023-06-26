@@ -127,7 +127,7 @@
         },
         "competitiveMaximumPercentage": {
           "title": "Maximum percentage of contract value for competitive subcontracting",
-          "description": "The maximum percentage of the contract value that the procuring entity requires the supplier to subcontract to third parties through a competitive procedure.",
+          "description": "The maximum percentage of the contract value that the buyer or procuring entity allows the supplier to subcontract to third parties through a competitive procedure.",
           "type": [
             "number",
             "null"
@@ -138,7 +138,7 @@
         },
         "competitiveMinimumPercentage": {
           "title": "Minimum percentage of contract value for competitive subcontracting",
-          "description": "The minimum percentage of the contract value that the procuring entity requires the supplier to subcontract to third parties through a competitive procedure.",
+          "description": "The minimum percentage of the contract value that the buyer or procuring entity requires the supplier to subcontract to third parties through a competitive procedure.",
           "type": [
             "number",
             "null"

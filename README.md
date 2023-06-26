@@ -14,6 +14,8 @@ In the European Union, this extension's fields correspond to [article 21 of dire
 
 For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
 
+TED XML schema R2.0.9 models the minimum and maximum percentages of the contract value that the contractor needs to subcontract as part of each award for *F15: Voluntary ex ante transparency notice*. eForms XML models these as part of each lot. As such, different fields ought to be used when implementing each profile.
+
 ## Examples
 
 ### Tender and awards
