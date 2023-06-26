@@ -12,7 +12,7 @@ If the percentage of the contract value that is subcontracted is an exact number
 
 In the European Union, this extension's fields correspond to [article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1) and the [eForms business terms](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) in BG-180 (Subcontracting) and BG-711 (Contract Terms).
 
-For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
+For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 TED XML schema R2.0.9 models the minimum and maximum percentages of the contract value that the contractor needs to subcontract as part of each award for *F15: Voluntary ex ante transparency notice*. eForms XML models these as part of each lot. As such, different fields ought to be used when implementing each profile.
 
