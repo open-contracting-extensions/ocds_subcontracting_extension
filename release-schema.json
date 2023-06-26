@@ -192,7 +192,7 @@
         },
         "mainContractors": {
           "title": "Main contractors",
-          "description": "The organizations to which the subcontractor will be subcontracted, if they are a subset of the tenderers submitting the bid or the suppliers receiving an award.",
+          "description": "The organizations to which the subcontractor will be subcontracted, if they are a subset of the tenderers submitting the bid or the suppliers receiving the award.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
