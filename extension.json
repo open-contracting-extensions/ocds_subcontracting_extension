@@ -3,7 +3,7 @@
     "en": "Subcontracting"
   },
   "description": {
-    "en": "Adds an object for information about the parts of the contract that the supplier will subcontract to third parties."
+    "en": "Adds objects for information about the terms governing subcontracting and the parts of the contract that tenderers and suppliers will subcontract to third parties."
   },
   "documentationUrl": {
     "en": "https://extensions.open-contracting.org/en/extensions/subcontracting/"
@@ -14,8 +14,12 @@
   "schemas": [
     "release-schema.json"
   ],
+  "codelists": [
+    "+partyRole.csv"
+  ],
   "testDependencies": [
-    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json"
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
