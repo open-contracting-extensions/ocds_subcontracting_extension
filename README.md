@@ -100,7 +100,7 @@ Information about the terms governing subcontracting is disclosed per lot at the
                 "id": "ORG-0012",
                 "name": "Company ABC"
               },
-              "tenderers": [
+              "mainContractors": [
                 {
                   "id": "ORG-0005",
                   "name": "Tendering Company Ltd"

@@ -190,9 +190,9 @@
           "description": "The organization that performs part of the contract on behalf of the suppliers.",
           "$ref": "#/definitions/OrganizationReference"
         },
-        "tenderers": {
-          "title": "Tenderers",
-          "description": "The tenderers to which the subcontractor will be subcontracted.",
+        "mainContractors": {
+          "title": "Main contractors",
+          "description": "The organizations to which the subcontractor will be subcontracted, if they are a subset of the tenderers submitting the bid or the suppliers receiving an award.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
