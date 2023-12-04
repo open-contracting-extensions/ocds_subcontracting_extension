@@ -123,6 +123,16 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-12-04
+
+* Update field descriptions:
+  * `SubcontractingTerms.competitiveMaximumPercentage`
+  * `SubcontractingTerms.competitiveMinimumPercentage`
+  * `Subcontracting.competitiveMaximumPercentage`
+  * `Subcontracting.competitiveMinimumPercentage`
+  * `Subcontracting.maximumPercentage`
+  * `Subcontracting.minimumPercentage`
+
 ### 2023-05-22
 
 * Add fields for eForms:
