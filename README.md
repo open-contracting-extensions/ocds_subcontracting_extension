@@ -153,7 +153,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2020-10-07
 
-* Rename the `subcontracting` field in the `Tender` object to `subcontractingTerms`.
+* Rename `Tender.subcontracting` to `subcontractingTerms`.
 
 ### 2020-04-24
 
