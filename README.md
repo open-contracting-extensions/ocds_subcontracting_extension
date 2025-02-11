@@ -145,7 +145,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
   * `Subcontracting`
   * `Subcontracting.description`
   * `Subcontracting.value`
-* Add 'subcontractor' to party role codelist.
+* Add 'subcontractor' code to the `+partyRole.csv` codelist patch.
 
 ### 2022-07-18
 
